@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/khoahoc.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="shortcut icon" href="../image/pageITC.png" type="image/x-icon">
+    <title>Khóa học</title>
+</head>
+
+<body>
+    <header>
+        <div class="show" style="margin-top: 90px;">
+            <div id="header">
+                <!-- Logo ITC -->
+                <div class="header-logo" onclick="main()">
+                    <a href="../home/main.html" style="text-decoration: none; display: flex; color: #0775a1; justify-content: center;align-items: center;">
+                        <img src="../image/logo ITC.jpg" alt="">
+                        <p>ITC UNETI</p>
+                    </a>
+                </div>
+                <!-- Menu header -->
+                <div class="header-menu">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="../home/main.html">Trang chủ</a>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-sharp fa-solid fa-volume-high"></i> -->
+                            <a href="">Hoạt động</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Văn hóa</a>
+                                </li>
+                                <li>
+                                    <a href="">Văn nghệ</a>
+                                </li>
+                                <li>
+                                    <a href="">Nghệ thuật</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-sharp fa-solid fa-book"></i> -->
+                            <a href="">Khóa học</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../khoahoc/detailkhoahocC++.html">C++</a>
+                                </li>
+                                <li>
+                                    <a href="../khoahoc/detailkhoahocWeb.html">LT Web</a>
+                                </li>
+                                <li>
+                                    <a href="../khoahoc/detailkhoahocAndroid.html">Android</a>
+                                </li>
+                                <li>
+                                    <a href="../khoahoc/ortherkhoahoc.html">PHP</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-sharp fa-solid fa-film"></i> -->
+                            <a href="">Chương trình</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Tri ân</a>
+                                </li>
+                                <li>
+                                    <a href="">Khuyến học</a>
+                                </li>
+                                <li>
+                                    <a href="">Hội thảo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-sharp fa-solid fa-toilet-paper"></i> -->
+                            <a href="">Sự kiện</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../tintuc/chaotansv.html">Chào mừng</a>
+                                </li>
+                                <li>
+                                    <a href="">Sinh nhật</a>
+                                </li>
+                                <li>
+                                    <a href="">Khác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-solid fa-phone"></i> -->
+                            <a href="../home/contact.html">Liên hệ</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Hottel</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/InformationTechnologyClub.uneti">FanPage</a>
+                                </li>
+                                <li>
+                                    <a href="https://khoacntt.uneti.edu.vn/">Website</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub">
+                            <!-- <i class="fa-solid fa-user"></i> -->
+                            <a href="">Tài khoản</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../login/dangnhap.html">Đăng nhập</a>
+                                </li>
+                                <li>
+                                    <a href="../login/dangky.html">Đăng ký</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Tìm kiếm -->
+                <div class="header-search">
+                    <div class="header-search-input">
+                        <input type="text" name="search" id="search" placeholder="Tìm kiếm">
+                    </div>
+                    <div class="header-search-button">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner chào tân SV K16 -->
+            <div class="banner">
+                <img src="../image/banner.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="title-khoahocs">
+            <div class="tieude">
+                <p>Trang chủ » Khóa học » Khóa học khác</p>
+            </div>
+        </div>
+        <div id="main">
+            <!-- Bài viết khóa học liên quan -->
+            <div class="main-left">
+                <div class="left-khoahoclienquan">
+                    <div class="title-khoahoc">
+                        <h3>KHÓA HỌC LIÊN QUAN</h3>
+                    </div>
+                    <!-- Show các khoa học liên quan -->
+                    <div class="item-khoahoc">
+                        <div class="item-k">
+                            <div class="images">
+                                <img src="../image/2.png" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Tên khóa học : </p>
+                                <p><span>Lập trình Java</span></p>
+                                </p>
+                                <p>Người dạy : </p>
+                                <p><span>GV Vũ Văn Đốc</span></p>
+                                <button name="btn-view" class="btn-view" id="detail-khoahoc">Xem ngay</button>
+                            </div>
+                        </div>
+                        <div class="item-k">
+                            <div class="images">
+                                <img src="../image/C++.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Tên khóa học : </p>
+                                <p><span>Lập trình C++</span></p>
+                                </p>
+                                <p>Người dạy : </p>
+                                <p><span>GV Bùi Văn Tân</span></p>
+                                <button name="btn-view" class="btn-view" id="detail-khoahoc">Xem ngay</button>
+                            </div>
+                        </div>
+                        <div class="item-k" style="margin-left: 20px;">
+                            <div class="images">
+                                <img src="../image/8.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Tên khóa học : </p>
+                                <p><span>Lập trình Website</span></p>
+                                </p>
+                                <p>Người dạy : </p>
+                                <p><span>CSV Hoàng Hải Long</span></p>
+                                <button name="btn-view" class="btn-view" id="detail-khoahoc">Xem ngay</button>
+                            </div>
+                        </div>
+                        <div class="item-k" style="margin-left: 20px;">
+                            <div class="images">
+                                <img src="../image/imgPtss.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>Tên khóa học : </p>
+                                <p><span>Khóa học Photoshop</span></p>
+                                </p>
+                                <p>Người dạy : </p>
+                                <p><span>SV Vũ Thành Đạt</span></p>
+                                <button name="btn-view" class="btn-view" id="detail-khoahoc">Xem ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Nội dung về khóa học -->
+            <div class="main-right">
+                <p>Không tìm thấy dữ liệu...</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer" class="footer">
+            <div class="footer-info">
+                <div class="item item-mxh">
+                    <h2>BẢN ĐỒ</h2>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.0544101105305!2d105.87581488326713
+                        !3d20.98050327574451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135afd765
+                    487289%3A0x21bd5839ba683d5f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gLSBL4bu5IF
+                    RodeG6rXQgQ8O0bmcgTmdoaeG7h3A!5e0!3m2!1svi!2s!4v1664448534285!5m2!1svi!2s" width="300" height="150"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="item item-ttlh">
+                    <h2>THÔNG TIN LIÊN HỆ</h2>
+                    <p class="text">
+                        <i class="fa-solid fa-phone-volume phone"></i>
+                        024.38621504
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope mail"></i>
+                        web@uneti.edu.vn
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot map"></i>
+                        218 Đ.Lĩnh Nam, Q.Hoàng Mai, TP.Hà Nội
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot map"></i>
+                        456 Minh Khai, Vĩnh Tuy, HBT, Hà Nội
+                    </p>
+                </div>
+                <div class="item item-noidung">
+                    <h2>VỀ CHÚNG TÔI</h2>
+                    <p>
+                        Một ITC năng động hơn, sáng tạo hơn khi là nơi
+                        nối kết các bạn có thể học hỏi,
+                        cùng nhau trao đổi và qua đó yêu ITC nhiều hơn.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-reserved">
+                <i class="fa-solid fa-c"
+                    style="border: 2px solid white; font-size: 16px; border-radius: 50%; width: 20px; padding: 3px;"></i>
+                <p>Desgin by <span>2IMNGHIA - Trần Trung Nghĩa</span> | All Rights Reserved !</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Button Back to top  -->
+    <a href="#" class="back-to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <script src="../js/app.js"></script>
+    <script>
+        function showForm() {
+            if (document.getElementById('form-dky').style.display === "none") {
+                document.getElementById('form-dky').style.display = "block"
+            }
+            else {
+                document.getElementById('form-dky').style.display = "none"
+            }
+        }
+
+        function khoahocPTS() {
+            if (document.getElementById('khoahocC').style.display === "none") {
+                document.getElementById('khoahocC').style.display = "block"
+                // document.getElementById('khoahocandroid').style.display = "none"
+            }
+            else {
+                document.getElementById('khoahocC').style.display = "none"
+                // document.getElementsByClassName('khoahocandroid').style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>

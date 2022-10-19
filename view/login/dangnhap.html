@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.0.0-web/css/all.css">
+    <script src="../js/app.js"></script>
+    <link rel="stylesheet" href="../css/dangnhap.css">
+    <link rel="shortcut icon" href="../image/logo ITC.jpg" type="image/x-icon">
+    <title>Đăng nhập hệ thống</title>
+</head>
+<body onload="generate()">
+    <div id="main">
+        <div id="alert">
+            <p>Mật khẩu không trùng khớp !<i class="fa-sharp fa-solid fa-xmark" id="closeAlert" onclick="closeAlert()"></i></p>
+        </div>
+        <div id="alert1">
+            <p>Bạn chưa nhập đủ dữ liệu !<i class="fa-sharp fa-solid fa-xmark" id="closeAlert" onclick="closeAlert()"></i></p>
+        </div>
+        <div id="content">
+            <div class="title">
+                <h3>Đăng nhập hệ thống</h3>
+            </div>
+            <div class="img">
+                <img src="../image/pageITC1.png" alt="">
+            </div>
+            <div class="input-login email">
+                <input type="email" name="email" id="email" class="email" placeholder="Nhập email...">
+            </div>
+            <div class="input-login">
+                <input type="password" name="pass" id="pass" class="pass" placeholder="Nhập mật khẩu...">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="" placeholder="Lưu đăng nhập ?">
+                <p>Lưu đăng nhập</p>
+            </div>
+            <div class="capcha">
+                <div id="user-input" class="inline">
+                    <input type="text" id="submit" placeholder="Nhập mã..." />
+                </div>
+                <div class="inline icon" onclick="generate()">
+                    <i class="fas fa-sync"></i>
+                </div>
+                <div id="image" class="inline" selectable="False">
+                </div>
+            </div>
+            <div class="btn-login">
+                <button type="submit" name="btn-login" id="btn-login" onclick="Login()">Đăng nhập</button>
+            </div>
+            <div class="orther-login">
+                <p>Bạn chưa có tài khoản ?</p>
+                <a href="../login/dangky.html">Đăng ký tại đây</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>

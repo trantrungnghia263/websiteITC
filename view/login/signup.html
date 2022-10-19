@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="shortcut icon" href="../image/logo_ITC.png" type="image/x-icon">
+    <title>Đăng ký </title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="header-logo" onclick="main()">
+                <a href="#" style="text-decoration: none; display: flex; color: #0775a1; justify-content: center;align-items: center;">
+                    <img src="../image/logo ITC.jpg" alt="">
+                    <p>ITC UNETI</p>
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="sub">
+                        <i class="fa-sharp fa-solid fa-volume-high"></i>
+                        <a href="">Hoạt động</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">Văn hóa</a>                         
+                            </li>
+                            <li>
+                                <a href="">Văn nghệ</a>                         
+                            </li>
+                            <li>
+                                <a href="">Nghệ thuật</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <i class="fa-sharp fa-solid fa-book"></i>
+                        <a href="">Khóa học</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">C++</a>                         
+                            </li>
+                            <li>
+                                <a href="">Javascript</a>                         
+                            </li>
+                            <li>
+                                <a href="">LT Web</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <i class="fa-sharp fa-solid fa-film"></i>
+                        <a href="">Chương trình</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">Tri ân</a>                         
+                            </li>
+                            <li>
+                                <a href="">Khuyến học</a>                         
+                            </li>
+                            <li>
+                                <a href="">Hội thảo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <i class="fa-sharp fa-solid fa-toilet-paper"></i>
+                        <a href="">Sự kiện</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">Chào mừng</a>                         
+                            </li>
+                            <li>
+                                <a href="">Sinh nhật</a>                         
+                            </li>
+                            <li>
+                                <a href="">Khác</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub">                       
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="">Liên hệ</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">Hottel</a>                         
+                            </li>
+                            <li>
+                                <a href="">FanPage</a>                         
+                            </li>
+                            <li>
+                                <a href="">Website</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="">Tài khoản</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="../login/signin.html">Đăng nhập</a>                         
+                            </li>
+                            <li>
+                                <a href="../login/signup.html">Đăng ký</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-search">
+                <div class="header-search-input">
+                    <input type="text" name="search" id="search" placeholder="Tìm kiếm">
+                </div>
+                <div class="header-search-button">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <div class="image-login">
+                <img src="../image/logo ITC.jpg" alt="">
+            </div>
+            <div class="login">
+                <h1>ĐĂNG KÝ</h1>
+                <form action="" onsubmit="SignUp()">
+                    <div class="input-text">
+                        <p>Email</p>
+                        <input type="text" name="email" id="email" placeholder="Nhập email">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-text">
+                        <p>Password</p>
+                        <input type="password" name="pass" id="pass" placeholder="Nhập password">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-text">
+                        <p>Confirm Password</p>
+                        <input type="password" name="confirm-pass" id="confirm-pass" placeholder="Nhập lại password">
+                        <div class="error"></div>
+                    </div>
+                    <input type="checkbox" name="save-login hide-pass" id="save-login hide-pass"><span> Hiện mật khẩu</span></input>
+                    <div class="input-text btn-login">
+                        <button type="submit" name="btn-login btn-signup" id="btn-login btn-signup">Đăng ký</button>
+                    </div>
+                    <p>Bạn đã có tài khoản ? <a href="..//login/signin.html"> Đăng nhập ngay</a></p>
+                    <h3>Hoặc đăng ký với</h2>
+                    <div class="other-login">
+                        <i class="fa-brands fa-facebook fb"></i>
+                        <i class="fa-brands fa-twitter tw"></i>
+                        <i class="fa-brands fa-google-plus gg"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer" class="footer">
+            <div class="footer-info">
+                <div class="item item-mxh">
+                    <h2>MẠNG XÃ HỘI</h2>
+                    <div class="mxh">
+                        <i class="fa-brands fa-facebook fb"></i>
+                        <i class="fa-brands fa-tiktok tt"></i>
+                        <i class="fa-solid fa-globe web"></i>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.0544101105305!2d105.87581488326713
+                        !3d20.98050327574451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135afd765
+                    487289%3A0x21bd5839ba683d5f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gLSBL4bu5IF
+                    RodeG6rXQgQ8O0bmcgTmdoaeG7h3A!5e0!3m2!1svi!2s!4v1664448534285!5m2!1svi!2s" width="300" height="150" 
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="item item-ttlh">
+                    <h2>THÔNG TIN LIÊN HỆ</h2>
+                    <p class="text">
+                        <i class="fa-solid fa-phone-volume phone"></i>
+                        024.38621504
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope mail"></i>
+                        web@uneti.edu.vn
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot map"></i>
+                        218 Đ.Lĩnh Nam, Q.Hoàng Mai, TP.Hà Nội
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot map"></i>
+                        456 Minh Khai,Vĩnh Tuy,HBT,Hà Nội
+                    </p>
+                </div>
+                <div class="item item-noidung">
+                    <h2>VỀ CHÚNG TÔI</h2>
+                    <p>
+                        Một ITC năng động hơn, sáng tạo hơn khi là nơi 
+                        nối kết các bạn có thể học hỏi, 
+                        cùng nhau trao đổi và qua đó yêu ITC nhiều hơn.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-reserved">
+                <i class="fa-solid fa-c"></i>
+                <p>Desgin by <span>2IMNGHIA - Trần Trung Nghĩa</span> | All Rights Reserved !</p>
+            </div>  
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>

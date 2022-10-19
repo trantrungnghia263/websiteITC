@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px !important;
+}
+body{
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+}
+#content{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    margin: 90px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+#content .title{
+    width: 95%;
+    color: white;
+    height: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    background-color: #086587;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+#content .img{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+#content .img img{
+    margin-top: 70px;
+    width: 100%;
+    object-fit: cover;
+}
+#content .input-login input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+    border-radius: 2px;
+}
+#content .input-login input:focus{
+    outline: none;
+}
+#content .input-login ::placeholder{
+    font-size: 20px;
+}
+#content .input-login .email{
+    margin-top: 80px;
+}
+#content .checkbox{
+    width: 300px;
+    color: rgb(121, 120, 120);
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#content .checkbox p{
+    margin-top: -3px;
+    margin-left: 5px;
+}
+#content .capcha{
+    width: 324px;
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#content .capcha #image{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    user-select: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large; 
+    color: #086587;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+}
+#content .capcha #user-input{
+    margin-right: 10px;
+    height: 40px;
+}
+#content .capcha #user-input input{
+    width: 120px;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+}
+#content .capcha #user-input input:focus{
+    outline: none;
+}
+#content .capcha .inline{
+    display:inline-block;
+}
+#content .capcha .icon{
+    cursor: pointer;
+}
+#content .capcha .inline .fa-sync{
+    color: rgb(228, 224, 104);
+    font-size: 30px;
+    margin-top: 10px;
+} 
+#content #btn-login ,#btn-signup{
+    width: 160px;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #086587;
+}
+#content #btn-signup:hover{
+    background-color: #2f738b;
+}
+#content #btn-login:hover{
+    background-color: #2f738b;
+}
+#content .orther-login{
+    margin-top: 10px;
+    color: rgb(121, 120, 120);
+}
+#content .orther-login a{
+    text-decoration: none;
+    color: #086587;
+}
+#main .alert .active{
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+#main #alert1{
+    display: none;
+    position: absolute;
+    width: 320px;
+    top: -90px;
+    left: 610px;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#main #alert1 p{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    background-color: #2f738b;
+}
+#main #alert1 .fa-xmark{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#main #alert1 .fa-xmark:hover{
+    color: rgb(172, 26, 56);
+}
+#main #alert{
+    display: none;
+    position: absolute;
+    width: 320px;
+    top: -90px;
+    left: 610px;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#main #alert p{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    background-color: #2f738b;
+}
+#main #alert .fa-xmark{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#main #alert .fa-xmark:hover{
+    color: rgb(172, 26, 56);
+}
